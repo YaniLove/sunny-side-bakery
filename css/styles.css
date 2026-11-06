@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@700&display=swap");
+
+/* Palette: cream #FFF8EC | cocoa #3B2A20 | butter #F4B942 | berry #B5446E | white #FFFFFF */
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #fff8ec;
+	font-family: "Playfair", serif;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.hero-img {
+	width: 300px;
+	border-radius: 10px;
+}
+
+.specials {
+	display: flex;
+	justify-content: center;
+	/* 	flex-wrap: wrap; */
+}
+
+.card {
+	border: 1px solid #f4b942;
+	background-color: #ffffff;
+	margin: 1rem;
+	padding: 1rem;
+	/* 	display: flex; */
+	flex: 0 0 200px;
+	/* 	min-width: 200px;
+	max-width: 200px; */
+	text-align: center;
+	border-radius: 10px;
+}
+
+.card:hover {
+	color: white;
+	font-weight: bold;
+	background-color: #23bec0;
+}
+.buttons {
+	border: 2px solid #f4b942;
+	background-color: #f4b942;
+	border-radius: 10px;
+	display: inline-block;
+	padding: 5px;
+	margin: 3px;
+}
+
+ul {
+	display: inline-block;
+}
+
+.site-footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.visit {
+	display: flex;
+	justify-content: center;
+}
